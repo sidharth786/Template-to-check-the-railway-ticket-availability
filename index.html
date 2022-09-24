@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Railway Ticket Booking</title>
+        <link rel="stylesheet" href="index.css"/>
+         
+    </head>
+
+    <body>
+    
+        <div class="main">
+            <h1 class="head">RAILWAY RESERVATION SYSTEM </h1>
+          <div class="navigation">
+    		<ul>
+    		<li><a href="index.html" id="onlink">HOME</a></li>
+    		<li><a href="meal.html">MEALS</a></li>
+    		<li><a href="holiday.html">H PACKAGES</a></li>
+    		<li><a href="service.html">SERVICE</a></li>
+    		<li><a href="subscribe.html">SUBSCRIBE</a></li>
+        <li><a href="register.view.html">REGISTER</a></li>
+        <li><a href="login.view.html">LOGIN</a></li>
+    		</ul>
+    		
+    	</div>
+        
+           
+      
+       <div class="booking">
+          <section>
+            
+            <h2 class="head1">Search Trains</h2>
+           
+          <form>
+            <label class="size"><strong> From Station </strong> </label>
+            <select id="class" name="class">
+             <option value="select">SELECT</option>
+             <option value="select">ksr Bengaluru</option>
+           </select>
+            
+            <label class="fsize"><strong> To Station </strong> </label>
+            <select id="class" name="class">
+             <option value="select">SELECT</option>
+             <option value="select">New Delhi</option>
+           </select>
+               
+               <b class="fsize"> Journey Date&emsp;<input type="Date" placeholder="dd-mm-yy">  </b> <br>  <br>
+               
+               <label class="fsize"><strong> Select Class </strong> </label>
+                   <select id="class" name="class">
+                    <option value="select">SELECT</option>    
+                    <option value="1AC">1AC</option>
+                    <option value="2AC">2AC</option>
+                    <option value="3AC">3AC</option>
+                    <option value="3AC">3E</option>
+                     <option value="Sleeper">Sleeper</option>
+                     <option value="Chair">Chair car</option> <br> 
+                    </select>
+              
+           </ul>
+            </form>
+            
+          <button class="submit" type="button" onclick="trainB()">Find Trains </button>
+
+    <div class="form-popup" id="bookTrain">
+    <div class="popup">
+      <li><a href="bdelhi.html">LOGIN</a></li>
+    <button type="button" class="hide" onclick="trainC()">Close</button>
+    </div> </div>
+
+
+
+
+            </section>
+            
+       </div>
+      
+       <!--<img class="img" src="" alt="train"/-->
+
+          <h1 class="holiday">HOLIDAY PACKAGES</h1>
+
+          <img class="imgs" src="taj.jpg"alt="TaajMahal"/>
+          <img class="imgs" src="temple.jpg" alt="Golden Temple"/>
+          <img class="imgs" src="tower.jpg" alt="Eiffel Tower"/>
+
+        </div>
+ <script src="main.js"></script>  
+    </body>
+</html>
+          
+          
+           
+          
+            
+
+            
+       
+
